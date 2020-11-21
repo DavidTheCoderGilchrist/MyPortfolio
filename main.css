@@ -1,8 +1,10 @@
-.header {
+
+.head {
     width: 100%;
     height: 80px;
     display: block;
-    background-color: black;
+    background-color: red;
+    background: url("..//Portfolio/assests/DSC03866.jpg")
 }
 
 .inner_header{
@@ -35,3 +37,70 @@
     font-family: Impact, sans-serif;
     font-size: 16px;
 }
+
+.jumbotron{
+    background-size: 2000px auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../Portfolio/assests/markus-spiske-hvSr_CVecVI-unsplash.jpg")
+    
+}
+
+h1{
+    color: white;
+    font-weight: bold;
+}
+
+.container2 {
+    position: relative;
+    width: 50%;
+    height: 50%;
+    
+  }
+
+.image {
+    opacity: 1;
+    display: inline-block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container2:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+.greeting{
+    color: white;
+}
+
+img{
+    width: 50%;
+    height: 50%;
+}
+
+
+
+
