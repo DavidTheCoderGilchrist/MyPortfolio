@@ -4,7 +4,7 @@
     height: 80px;
     display: block;
     background-color: red;
-    background: url("..//Portfolio/assests/DSC03866.jpg")
+    background: url("..//MyPortfolio/assests/markus-spiske-hvSr_CVecVI-unsplash.jpg")
 }
 
 .inner_header{
@@ -42,7 +42,7 @@
     background-size: 2000px auto;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url("../Portfolio/assests/markus-spiske-hvSr_CVecVI-unsplash.jpg")
+    background-image: url("../MyPortfolio/assests/markus-spiske-cvBBO4PzWPg-unsplash.jpg")
     
 }
 
@@ -515,8 +515,10 @@ img{
  
  .display-3 {
    font-size: 4.5rem;
-   font-weight: 300;
+   font-weight: 500;
    line-height: 1.2;
+   color: white;
+
  }
  
  .display-4 {
